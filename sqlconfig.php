@@ -15,7 +15,7 @@ class sqlconfig
             $this->connection = new mysqli($this->_host, $this->_username, $this->_password, $this->_database);
 
             if (!$this->connection) {
-                echo 'Cannot connect to database server';
+                echo '無法連資料庫';
                 exit;
             }
         }
